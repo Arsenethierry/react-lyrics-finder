@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SongCard(props) {
+function SongCard() {
     return (
         <div className='grid sm:grid-cols-2 md:grid-cols-4 sm:gap-2 gap-4 mt-5'>
             <a href='#' className='flex flex- h-40 items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700' >
