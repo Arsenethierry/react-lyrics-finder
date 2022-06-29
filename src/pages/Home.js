@@ -1,14 +1,9 @@
 import React from 'react';
-import SongCard from '../components/SongCard';
+import SongCard from '../components/Songs';
 
 function Home(props) {
     return (
         <div className='container mx-auto'>
-            <SongCard />
-            <SongCard />
-            <SongCard />
-            <SongCard />
-            <SongCard />
             <SongCard />
         </div>
     );

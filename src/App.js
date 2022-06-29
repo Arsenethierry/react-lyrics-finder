@@ -1,7 +1,8 @@
 import Header from "./components/Header";
-import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ContextAPI from "./Context";
+import SongLyrics from "./pages/SongLyrics";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route exact path="/lyrics/track/:id" element={<SongLyrics />} />
         </Routes>
       </div>
     </BrowserRouter>
